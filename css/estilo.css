@@ -1,6 +1,7 @@
          
 		/* Estilos CSS para el contenedor de nivel superior */
 		#contenedor {
+      
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
@@ -8,6 +9,12 @@
 			padding: 20px;
 			border-radius: 10px;
 			box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+  }
+		/* Estilos CSS para el título */
+		h2 {
+			text-align: center;
+			margin-top: 50px;
 		}
 
     /* Estilo footer */
@@ -20,36 +27,37 @@
 			background-color: #86a7e4;
 			color: 86a7e4;
 			padding: 20px;
+
 		}
 
-/*tabla*/
+    /* estilo navegador menu */
 
-.table-container {
-  width: 100%;
-  margin-bottom: 20px;
-}
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 0 auto;
-  border: 1px solid #ddd;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-th, td {
-  padding: 8px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
-}
-th {
-  background-color: #4CAF50;
-  color: white;
-}
-.notas-container {
-  font-size: 1.2em;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
+    
+    nav ul {
+      list-style: none; /* Elimina la viñeta de la lista */
+      padding: 0; /* Elimina el espacio interior de la lista */
+      margin: 0; /* Elimina el espacio exterior de la lista */
+      display: inline-block; /* Establece la visualización de la lista como elementos en línea */
+    }
+    
+    nav li {
+      display: inline-block; /* Establece la visualización de los elementos de la lista como elementos en línea */
+      margin-right: 20px; /* Espaciado entre los elementos de la lista */
+    }
+    
+    nav a {
+      display: block; /* Establece la visualización de los enlaces como bloques de texto */
+      text-align: center; /* Alineación del texto en el centro */
+      padding: 10px; /* Espaciado interior del enlace */
+      text-decoration: none; /* Elimina la subrayado del enlace */
+      color: #333; /* Color del texto del enlace */
+    }
+    
+    nav a:hover {
+      background-color: #ddd; /* Color de fondo del enlace al pasar el cursor por encima */
+    }
+    
+
 
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
@@ -141,3 +149,71 @@ body {
 .login input[type="submit"]:focus {
   border-color: #05a;
 }
+
+  /* Define el estilo del contenedor de la tabla */
+.table-perfil {
+  width: 50%; /* Ancho del contenedor de la tabla */
+  margin-bottom: 20px; /* Margen inferior del contenedor de la tabla */
+}
+
+/*  ESTILO TABLA*/
+
+.table-container {
+  display: flex;
+  width: 500px;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.table1, .table2 {
+  margin-right: 30px;
+}
+
+
+table {
+  border-collapse: collapse; /* Colapsa los bordes de las celdas para que parezcan uno solo */
+  width: 100%; /* Ancho de la tabla */
+  margin: 0 auto; /* Margen horizontal automático para centrar la tabla en su contenedor */
+  border: 1px solid #03381b; /* Grosor, estilo y color de los bordes de la tabla */
+  margin-top: 20px; /* Margen superior de la tabla */
+  margin-bottom: 20px; /* Margen inferior de la tabla */
+}
+
+/* Define el estilo de las celdas de encabezado y de datos */
+th, td {
+  padding: 8px; /* Espaciado interior de las celdas */
+  text-align: left; /* Alineación horizontal del texto en las celdas */
+  border-bottom: 1px solid #104d07; /* Grosor, estilo y color del borde inferior de las celdas */
+}
+
+/* Define el estilo de las celdas de encabezado */
+th {
+  background-color: #4CAF50; /* Color de fondo de las celdas de encabezado */
+  color: white; /* Color del texto en las celdas de encabezado */
+}
+
+/* Define el estilo del contenedor de notas */
+.notas-container {
+  font-size: 1.2em; /* Tamaño de fuente del contenedor de notas */
+  font-weight: bold; /* Grosor de fuente del contenedor de notas */
+  margin-bottom: 20px; /* Margen inferior del contenedor de notas */
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+/*PRUEBAAAAAAAAAAAAAAAAAAAAAAAA */
+
+  
+
+   
+  
+
