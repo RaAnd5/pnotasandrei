@@ -1,0 +1,24 @@
+
+<div class="container profile-container">
+    <div class="left-section">
+      <img src="assets\est.jpg" width="120" height="120" alt="Foto del alumno">
+      <div class="student-info">
+        <h3>Datos del alumno</h3>
+        <p>Nombre: {{ nombre }}</p>
+        <p>Apellidos: {{ apellidos }}</p>
+        <p>Edad: {{ edad }}</p>
+        <p>Usuario: {{ usuario }}</p>
+
+       
+      </div>
+    </div>
+    <div class="right-section">
+      <div class="contact-info">
+        <p>Teléfono: <span id="telefono">{{telefono}}</span> <button onclick="editarTelefono()">Editar</button></p>
+        <p>Dirección: <span id="direccion">{{direccion}}</span> <button onclick="editarDireccion()">Editar</button></p>
+      </div>
+      <button class="btn btn-primary" onclick="activarModoOscuro()">Activar modo oscuro</button>
+    </div>
+  </div>
+  
+  

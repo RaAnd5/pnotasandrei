@@ -1,0 +1,75 @@
+/* Estilos para el perfil */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+  }
+  
+  .right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .student-info {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .contact-info {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .dark-mode-btn {
+    margin-top: 20px;
+  }
+  
+  /* Estilos para la imagen del alumno */
+  .left-section img {
+    border-radius: 50%;
+  }
+  
+  /* Estilos para los botones de edición */
+  .contact-info button {
+    margin-left: 10px;
+  }
+  
+  /* Estilos para la tabla de notas */
+  .table-container {
+    margin-top: 50px;
+  }
+  
+  table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  /* Estilos para el botón de regresar */
+  .back-button {
+    margin-top: 20px;
+  }
+  
