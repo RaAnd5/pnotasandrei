@@ -1,9 +1,9 @@
-import { Component } from '@angular/core';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes} from '@angular/router';
 import { InicioComponent } from './inicio/inicio.component';
 import { IndexComponent } from './index/index.component';
 import { PerfilComponent } from './perfil/perfil.component';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -12,5 +12,5 @@ import { PerfilComponent } from './perfil/perfil.component';
 })
 export class AppComponent {
   title = 'insti';
-  cosas = "esta es la pedrardad del siugo"
+  cosas = "esta es la verdad del siguiente"
 }

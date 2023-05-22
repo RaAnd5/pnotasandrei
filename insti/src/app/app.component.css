@@ -5,8 +5,8 @@
   flex-direction: column;
   min-height: 100vh;
   justify-content: space-between;
+  position: relative; /* Agregado */
 }
-
 /* Estilos del encabezado */
 
 header {
@@ -68,16 +68,22 @@ router-outlet {
 
 /* Estilos del pie de página */
 
+
 footer {
   background-color: #333333;
   color: #ffffff;
   padding: 20px;
   text-align: center;
-  position: fixed;
+  position: absolute; 
   bottom: 0;
   width: 100%;
   max-width: 1200px;
   left: 50%;
   transform: translateX(-50%);
+  display: ; /* Agregado */
 }
 
+
+.example-spacer {
+  flex: 1 1 auto;
+}
