@@ -2,7 +2,8 @@ import { Injectable } from '@angular/core';
 import { Usuario } from 'src/usuarios';
 import { MensajeService } from './mensaje.service';
 import {Observable,of} from 'rxjs';
-import  {USUARIOS} from 'src/mock-datos'
+import  {USUARIOS} from 'src/mock-datos';
+import {HttpClient, HttpHeaders} from '@angular/common/http';
 
 
 
@@ -13,6 +14,8 @@ import  {USUARIOS} from 'src/mock-datos'
 
 export class UsuariosService {
 
+
+
   getUsuarios(): Observable<Usuario[]> {
     const listObservabledeUsuarios = of(USUARIOS);
 
@@ -20,10 +23,7 @@ export class UsuariosService {
     this.mesageService.add('Servicio de Usuarios: Usuarioos recuperados');
     return listObservabledeUsuarios;
   }
-   constructor(private mesageService: MensajeService){ 
-    
-
-  }
+   constructor(private http: HttpClient, private mesageService: MensajeService){ }
 
 }
 
