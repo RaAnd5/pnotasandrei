@@ -20,7 +20,7 @@ export class UsuariosService {
     const listObservabledeUsuarios = of(USUARIOS);
 
     //LLamada a enviar el mensaje
-    this.mesageService.add('Servicio de Usuarios: Usuarioos recuperados');
+    this.mesageService.add('Servicio de Usuarios: Usuarios recuperados');
     return listObservabledeUsuarios;
   }
    constructor(private http: HttpClient, private mesageService: MensajeService){ }

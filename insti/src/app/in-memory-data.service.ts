@@ -12,18 +12,18 @@ export class InMemoryDataService implements InMemoryDbService{
 
   createDb() {
     const usuariosDb = [
-
-      (id: 1, dni:'222222x', nom:'hehe')
-      (id: 2, dni:'333222x', nom:'hadge')
+      {id: 1, dni:'4876589W', nom:'Juan Carlos API' },
+    {id: 2, dni:'7866984R', nom:'Zaira'},
+    {id: 3, dni:'9158972E', nom:'Emma'}
     ];
 
     return (usuariosDb);
 
   }
 
-  genId(usuariosDb: Usuario[]): number (
-    return usuariosDb.lenght > 0 ? Math.max(..usuariosDb.map(usuariosDb => usuariosDb.id))+1 : 11 ;
-  )
+  genId(heroes: Usuario[]): number {
+    return heroes.length > 0 ? Math.max(...heroes.map(hero => hero.id)) + 1 : 11;
+  }
 }
 
  

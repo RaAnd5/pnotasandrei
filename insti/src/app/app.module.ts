@@ -9,9 +9,12 @@ import { PerfilComponent } from './perfil/perfil.component';
 import { BackNotasComponent } from './back-notas/back-notas.component';
 import { AlumnoComponent } from './alumno/alumno.component';
 import { NotasCursosComponent } from './notas-cursos/notas-cursos.component';
-import { MatIconModule } from '@angular/material/icon';
 import { UserComponent } from './user/user.component';
 import { MessagesComponent } from './messages/messages.component';
+import { FooterComponent } from './footer/footer.component';
+
+
+
 
 
 @NgModule({
@@ -24,14 +27,16 @@ BackNotasComponent,
 AlumnoComponent,
 NotasCursosComponent,
 UserComponent,
-MessagesComponent
+MessagesComponent,
+FooterComponent,
+
 ],
 
 imports: [
 BrowserModule,
 RouterModule,
 AppRoutingModule,
-MatIconModule
+
 
 ],
 

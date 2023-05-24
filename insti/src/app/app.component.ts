@@ -3,6 +3,7 @@ import { RouterModule, Routes} from '@angular/router';
 import { InicioComponent } from './inicio/inicio.component';
 import { IndexComponent } from './index/index.component';
 import { PerfilComponent } from './perfil/perfil.component';
+import { UserComponent } from './user/user.component';
 import { Component } from '@angular/core';
 
 @Component({
